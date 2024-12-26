@@ -151,8 +151,6 @@ async def calculate_option_range(
     except ValueError as e:
         return {"error": str(e)}
 
-
-
 # Single price endpoint
 @app.get("/black_scholes")
 async def calculate_option(
